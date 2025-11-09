@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="app-header">
+    <div class="logo-container">
+      <img src="logo.svg" alt="Shorty Logo" class="logo-img">
+      <h1 class="title">SMART HOME SECURITY SYSTEM</h1>
+    </div>
+  </header>
+
+  <!-- MAIN WRAPPER YANG DIPERBAIKI -->
+  <div class="main-wrapper">
+    <!-- Sidebar -->
+    <div class="left-panel">
+      <div class="user-section">
+        <div class="username">Hi, Tyas</div>
+        <div class="settings">⚙️</div>
+      </div>
+      <hr class="divider" />
+      <div class="room-status">
+        <h3>Room Status</h3>
+        <div class="room">
+          <span>Entrance</span>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+          </label>
+        </div>
+        <div class="room">
+          <span>Kitchen</span>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+          </label>
+        </div> 
+      </div>
+    </div>
+
+    <!-- Konten Utama -->
+    <div class="main-content">
+      <!-- Face Detection -->
+      <div class="face-detection">
+        <h2>Face Detection</h2>
+        <div class="face-detection-content">
+          <!-- Frame Kamera -->
+          <div class="camera-frame">
+            <img src="face-placeholder.jpg" alt="Face Detection Feed">
+            <div class="camera-controls">
+              <button class="cam-btn pause">
+                <img src="pause.svg" alt="Pause">
+              </button>
+              <button class="cam-btn capture">
+                <img src="capture.svg" alt="Capture">
+              </button>
+              <button class="cam-btn back">
+                <img src="back.svg" alt="Back">
+              </button>
+            </div>
+          </div>
+          <!-- Kotak Status di Kanan Frame -->
+          <div class="status-box">
+            <h3>Status</h3> 
+            <div class="status-item">
+              <img src="person.svg" alt="Person" class="icon">
+              <span class="status-text" id="person-status">Unknown</span>
+            </div>
+            <div class="status-item">
+              <img src="clock.svg" alt="Time" class="icon">
+              <span class="status-text" id="time-status">--:--</span>
+            </div>
+            <div class="status-item">
+              <img src="calendar.svg" alt="Date" class="icon">
+              <span class="status-text" id="date-status">-- -- ----</span>
+            </div>
+          </div>
+          <!-- Kotak Control -->
+          <div class="control-box">
+            <h3>Control</h3>
+            <div class="control-item">
+              <span>Notification</span>
+              <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+              </label>
+            </div>
+            <div class="control-item">
+              <span>Alarm</span>
+              <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Log Wajah -->
+        <div class="face-log-section">
+          <h2>Face Detection Log</h2>
+          <div class="face-log-container" id="face-log-container">
+            <!-- Card akan muncul otomatis dari JS -->
+          </div>
+        </div>
+        
+        <!-- Hazard Detection -->
+        <div class="hazard-detection">
+          <h2>Gas and Leak Detection</h2>
+          <div class="hazard-boxes">
+            <!-- Gas Sensor -->
+            <div class="hazard-box">
+              <h3>Gas Sensor</h3>
+              <div class="hazard-item">
+                <span>Status:</span>
+                <span id="gas-status">Normal</span>
+              </div>
+              <div class="hazard-item">
+                <span>Kadar Gas:</span>
+                <span id="gas-level">0%</span>
+              </div>
+              <div class="hazard-item">
+                <span>Batas Normal:</span>
+                <span>50%</span>
+              </div>
+            </div>
+
+            <!-- Smoke & Fire -->
+            <div class="hazard-box">
+              <h3>Smoke & Fire Detection</h3>
+              <div class="hazard-item">
+                <span>Status Smoke:</span>
+                <span id="smoke-status">Normal</span>
+              </div>
+              <div class="hazard-item">
+                <span>Status Fire:</span>
+                <span id="fire-status">Normal</span>
+              </div>
+            </div>
+
+            <!-- Control -->
+            <div class="hazard-box">
+              <h3>Control</h3>
+              <div class="control-item">
+                <span>Notification</span>
+                <label class="switch">
+                  <input type="checkbox" id="notif-toggle">
+                  <span class="slider"></span>
+                </label>
+              </div>
+              <div class="control-item">
+                <span>Alarm</span>
+                <label class="switch">
+                  <input type="checkbox" id="alarm-toggle">
+                  <span class="slider"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+                </div> <!-- Penutup hazard-detection -->
+        
+        <!-- Gas Leak and Fire Detection Log -->
+        <div class="hazard-log-section">
+          <h2>Gas Leak and Fire Detection Log</h2>
+          <div class="hazard-log-container">
+            <table class="hazard-log-table">
+              <thead>
+                <tr>
+                  <th>Time</th>
+                  <th>Sensor</th>
+                  <th>Status</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>14:30:25</td>
+                  <td>Gas Sensor</td>
+                  <td>Normal</td>
+                  <td>Gas level within safe limits</td>
+                </tr>
+                <tr>
+                  <td>14:25:10</td>
+                  <td>Fire Sensor</td>
+                  <td>Normal</td>
+                  <td>No smoke or fire detected</td>
+                </tr>
+                <tr>
+                  <td>14:20:45</td>
+                  <td>Gas Sensor</td>
+                  <td>Normal</td>
+                  <td>Regular system check</td>
+                </tr>
+                <tr>
+                  <td>14:15:30</td>
+                  <td>Fire Sensor</td>
+                  <td>Normal</td>
+                  <td>Temperature stable</td>
+                </tr>
+                <tr>
+                  <td>14:10:15</td>
+                  <td>Gas Sensor</td>
+                  <td>Normal</td>
+                  <td>Gas level: 15%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div> <!-- Penutup main-content -->
+    </div> <!-- Penutup main-wrapper -->
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
