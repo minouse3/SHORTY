@@ -1,0 +1,12 @@
+Flask
+flask-socketio
+eventlet
+opencv-python
+numpy
+ultralytics
+cvzone
+python-dotenv
+cryptography
+requests
+python-telegram-bot
+filelock
