@@ -521,3 +521,33 @@ html, body {
 .hazard-log-table tbody tr:nth-child(even):hover {
   background-color: #e9ecef;
 }
+
+/* === ADD THIS TO THE BOTTOM OF STYLE.CSS === */
+
+.camera-switcher {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.cam-switch-btn {
+  padding: 8px 15px;
+  font-size: 14px;
+  font-family: "League Spartan";
+  font-weight: 600;
+  border: 2px solid #1f2a55;
+  background-color: #ffffff;
+  color: #1f2a55;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cam-switch-btn:hover {
+  background-color: #f0f4f8;
+}
+
+.cam-switch-btn.active {
+  background-color: #1f2a55;
+  color: #ffffff;
+}
