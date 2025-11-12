@@ -1,0 +1,16 @@
+{
+  "placeholderImages": [
+    {
+      "id": "kitchen-camera",
+      "description": "A live feed from the kitchen camera.",
+      "imageUrl": "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxraXRjaGVuJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzYyOTA3NDE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kitchen interior"
+    },
+    {
+      "id": "front-door-camera",
+      "description": "A live feed from the front door camera.",
+      "imageUrl": "https://images.unsplash.com/photo-1607900840367-a83dcd63296d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZnJvbnQlMjBkb29yfGVufDB8fHx8MTc2MjkwOTQ5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "front door"
+    }
+  ]
+}
