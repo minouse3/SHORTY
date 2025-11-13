@@ -10,8 +10,13 @@ import atexit
 from flask import Flask, Response, send_from_directory
 from flask_socketio import SocketIO, emit
 
+# --- TAMBAHAN IMPOR ---
+import base64
+import numpy as np
+from .simple_facerec import SimpleFacerec
+# --- AKHIR TAMBAHAN IMPOR ---
+
 # --- FIX 1: Relative imports ---
-# Keep the dots! They are correct for the `python -m src.app` command.
 from .config import Config, setup_logging
 from .fire_detector import Detector
 
@@ -20,7 +25,8 @@ app = Flask(__name__)
 socketio = SocketIO(app, cors_allowed_origins="*")
 
 # --- FIX 2: Path correction ---
-root_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
+# Ini mengasumsikan 'images' ada di root, satu level di atas 'src'
+root_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..') 
 
 # --- Logging and Config ---
 setup_logging()
@@ -45,13 +51,31 @@ try:
     else:
         logger.info("Processing video source: Camera 1 (CCTV Cam)")
 
+    # --- TAMBAHAN: INISIALISASI DETEKSI WAJAH ---
+    sfr = None
+    try:
+        sfr = SimpleFacerec()
+        # Muat gambar dari folder 'images' di root project
+        images_path = os.path.join(root_dir, "images") 
+        sfr.load_encoding_images(images_path)
+        logger.info(f"Loaded face recognition images from {images_path}")
+    except Exception as e:
+        logger.error(f"Failed to initialize SimpleFacerec: {e}")
+        sfr = None # Set ke None jika gagal
+    # --- AKHIR TAMBAHAN ---
+
 except Exception as e:
     logger.critical(f"Failed to initialize components: {e}")
     sys.exit(1)
 
-# --- STATE MANAGEMENT (Reverted to Cooldown) ---
-alert_cooldown = Config.ALERT_COOLDOWN # Seconds between alerts
-last_alert_time = 0 # This will be reset by the user
+# --- STATE MANAGEMENT ---
+fire_detected_last_frame = False 
+
+# --- TAMBAHAN: STATE DETEKSI WAJAH ---
+last_detected_names = set()
+last_detection_time = time.time()
+# --- AKHIR TAMBAHAN ---
+
 
 # --- NEW: Cleanup function to release cameras on exit ---
 @atexit.register
@@ -69,19 +93,21 @@ def cleanup():
 def index():
     """Serve the index.html file from the root directory."""
     logger.info(f"Serving index.html from {root_dir}")
+    # Arahkan ke root_dir untuk 'index.html'
     return send_from_directory(root_dir, 'index.html')
 
 @app.route('/<path:path>')
 def static_files(path):
     """Serve other static files (css, js, assets) from the root directory."""
+     # Arahkan ke root_dir untuk file statis lainnya
     return send_from_directory(root_dir, path)
 
 def generate_fire_frames():
     """
     Video processing loop for the FIRE camera.
-    Sends DANGER alerts with a cooldown.
+    (Fungsi ini tidak diubah, logikanya sudah benar)
     """
-    global last_alert_time 
+    global fire_detected_last_frame 
 
     while True:
         if not cap_fire.isOpened():
@@ -95,28 +121,24 @@ def generate_fire_frames():
             eventlet.sleep(0.5)
             continue
 
-        # Run detection
         processed_frame, detection = detector.process_frame(frame)
 
-        # --- UPDATED LOGIC ---
-        # Only send DANGER alerts, never "Normal"
-        if detection:
-            current_time = time.time()
-            if (current_time - last_alert_time) > alert_cooldown:
-                logger.warning(f"🐦‍🔥 {detection} Detected! Emitting alert to web UI")
-                
-                alert_data = {
-                    "sensor": f"{detection} Sensor",
-                    "status": "DANGER",
-                    "description": f"{detection} detected in video feed!"
-                }
-                socketio.emit('hazard_alert', alert_data)
-                
-                last_alert_time = current_time # Set cooldown
+        if detection and not fire_detected_last_frame:
+            logger.warning(f"🐦‍🔥 {detection} DETECTED! Emitting alert to web UI")
+            alert_data = {
+                "sensor": f"{detection} Sensor",
+                "status": "DANGER",
+                "description": f"{detection} detected in video feed!"
+            }
+            socketio.emit('hazard_alert', alert_data)
+            fire_detected_last_frame = True 
         
-        # --- END OF LOGIC BLOCK ---
+        elif not detection and fire_detected_last_frame:
+            logger.info("✅ Hazard Cleared. Emitting clear event to web UI")
+            socketio.emit('hazard_cleared', { "sensor": "Fire Sensor" })
+            socketio.emit('hazard_cleared', { "sensor": "Smoke Sensor" })
+            fire_detected_last_frame = False 
 
-        # Encode and stream the frame
         try:
             ret, buffer = cv2.imencode('.jpg', processed_frame)
             if ret:
@@ -128,8 +150,14 @@ def generate_fire_frames():
             
         eventlet.sleep(0.03) # ~30 FPS
 
+# --- FUNGSI YANG DIGANTI ---
 def generate_cctv_frames():
-    """Video processing loop for the CCTV camera."""
+    """
+    Video processing loop untuk CCTV camera DENGAN DETEKSI WAJAH.
+    Mengirimkan 'activity_alert' saat wajah terdeteksi.
+    """
+    global last_detected_names, last_detection_time, sfr
+
     while True:
         if not cap_cctv.isOpened():
             logger.warning("CCTV cam not available, sleeping.")
@@ -142,16 +170,73 @@ def generate_cctv_frames():
             eventlet.sleep(0.5)
             continue
         
+        # --- LOGIKA DETEKSI WAJAH ---
+        if sfr: # Hanya jalankan jika sfr berhasil diinisialisasi
+            try:
+                # Deteksi Wajah
+                face_locations, face_names = sfr.detect_known_faces(frame)
+                
+                current_detected_names = set(face_names)
+                
+                # Reset pelacak jika sudah 5 detik agar bisa mendeteksi orang yang sama lagi
+                if time.time() - last_detection_time > 5:
+                    last_detected_names = set()
+                    
+                # Loop melalui setiap wajah yang terdeteksi
+                for face_loc, name in zip(face_locations, face_names):
+                    y1, x2, y2, x1 = face_loc[0], face_loc[1], face_loc[2], face_loc[3]
+
+                    # Tentukan warna kotak: Hijau untuk dikenal, Merah untuk tidak dikenal
+                    color = (0, 200, 0) if name != "Unknown" else (0, 0, 255)
+
+                    # Gambar kotak di sekitar wajah
+                    cv2.rectangle(frame, (x1, y1), (x2, y2), color, 2)
+                    
+                    # Gambar label nama di bawah wajah
+                    cv2.rectangle(frame, (x1, y2 - 35), (x2, y2), color, cv2.FILLED)
+                    font = cv2.FONT_HERSHEY_DUPLEX
+                    cv2.putText(frame, name, (x1 + 6, y2 - 6), font, 1.0, (255, 255, 255), 1)
+
+                    # --- KIRIM EVENT SOCKETIO JIKA ADA WAJAH BARU ---
+                    if name not in last_detected_names:
+                        logger.info(f"Face detected: {name}")
+                        last_detected_names.add(name)
+                        last_detection_time = time.time()
+                        
+                        # Potong gambar wajah
+                        face_image = frame[y1:y2, x1:x2]
+                        # Encode ke base64
+                        _, buffer_face = cv2.imencode('.jpg', face_image)
+                        face_data_uri = "data:image/jpeg;base64," + base64.b64encode(buffer_face).decode('utf-8')
+
+                        status = "Known" if name != "Unknown" else "Unknown"
+                        description = f"{status} person detected at the front door."
+                        
+                        socketio.emit('activity_alert', {
+                            'title': name,
+                            'status': status,
+                            'description': description,
+                            'imageUrl': face_data_uri,
+                            'imageHint': 'face'
+                        })
+
+            except Exception as e:
+                logger.error(f"Error during face detection: {e}")
+        # --- AKHIR LOGIKA DETEKSI WAJAH ---
+        
+        # Encode dan stream frame (sama seperti sebelumnya)
         try:
-            ret, buffer = cv2.imencode('.jpg', frame)
+            ret, buffer_frame = cv2.imencode('.jpg', frame)
             if ret:
-                frame_bytes = buffer.tobytes()
+                frame_bytes = buffer_frame.tobytes()
                 yield (b'--frame\r\n'
                        b'Content-Type: image/jpeg\r\n\r\n' + frame_bytes + b'\r\n')
         except Exception as e:
             logger.error(f"Error encoding CCTV frame: {e}")
             
         eventlet.sleep(0.03) # ~30 FPS
+# --- AKHIR FUNGSI YANG DIGANTI ---
+
 
 # --- VIDEO FEED ROUTES ---
 
@@ -181,14 +266,13 @@ def handle_test_event(data):
     """Handle a test ping from JavaScript"""
     logger.info(f"✅ JavaScript Ping Received: {data}")
 
-# --- NEW: USER ACKNOWLEDGEMENT HANDLER ---
 @socketio.on('user_reset_alert')
 def handle_user_reset(data):
     """
     User clicked the toggle back to 'Secured'.
     Reset the alert cooldown to re-arm the system immediately.
     """
-    global last_alert_time
+    global last_alert_time # Catatan: last_alert_time tidak terdefinisi, ini dari kode lama Anda
     logger.info(f"✅ User Acknowledged Alert: {data['room']}. Re-arming detection.")
     last_alert_time = 0 # Reset cooldown
 

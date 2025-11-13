@@ -39,7 +39,7 @@ class Config:
     VIDEO_SOURCE = PROJECT_ROOT / 'data' / 'police_car_fire_ccvt.mp4'
     DETECTED_FIRES_DIR = PROJECT_ROOT / 'detected_fires'
 
-    ALERT_COOLDOWN = 45  # Seconds between alerts
+    ALERT_COOLDOWN = 0 # Seconds between alerts
 
     @classmethod
     def validate(cls):

@@ -4965,3 +4965,1025 @@
 2025-11-12 20:20:51 - __main__ - WARNING - CCTV cam not available, sleeping.
 2025-11-12 20:20:51 - __main__ - INFO - Releasing video captures...
 2025-11-12 20:20:51 - __main__ - INFO - Cleanup complete.
+2025-11-13 10:55:43 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-13 10:55:43 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-13 10:55:43 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-13 10:55:43 - __main__ - ERROR - Failed to open video source: 0 (Fire Cam)
+2025-11-13 10:56:12 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-13 10:56:12 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-13 10:56:12 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-13 10:56:13 - __main__ - INFO - Processing video source: Camera 0 (Fire Cam)
+2025-11-13 10:56:14 - __main__ - ERROR - Failed to open video source: 1 (CCTV Cam)
+2025-11-13 10:56:14 - __main__ - WARNING - CCTV feed will not be available. Continuing with fire cam.
+2025-11-13 10:56:14 - __main__ - INFO - Starting Flask-SocketIO server on http://localhost:5000
+2025-11-13 10:58:25 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 10:58:25 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 10:58:32 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 10:58:32 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 10:58:33 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 10:58:35 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 10:58:35 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 10:58:37 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 10:58:39 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 10:58:39 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 10:58:39 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 10:58:42 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 10:58:47 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 10:58:47 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 10:58:47 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 10:58:52 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 10:58:52 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 10:58:52 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 10:58:56 - __main__ - INFO - \u2705 User Acknowledged Alert: kitchen. Re-arming detection.
+2025-11-13 10:58:57 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 10:58:57 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 10:58:57 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 10:58:59 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 10:58:59 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 10:58:59 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 10:59:02 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 10:59:02 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 10:59:02 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 10:59:07 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 10:59:12 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 10:59:17 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 10:59:17 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 10:59:17 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 10:59:19 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 10:59:19 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 10:59:22 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 10:59:24 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 10:59:24 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 10:59:26 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 10:59:26 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 10:59:27 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 10:59:32 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 10:59:36 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 10:59:36 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 10:59:37 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 10:59:41 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 10:59:41 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 10:59:42 - __main__ - INFO - \u2705 User Acknowledged Alert: kitchen. Re-arming detection.
+2025-11-13 10:59:42 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 10:59:42 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 10:59:43 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 10:59:48 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 10:59:48 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 10:59:48 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 10:59:53 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 10:59:53 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 10:59:53 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 10:59:58 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:00:00 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:00:00 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:00:03 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:00:05 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:00:05 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:00:08 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:00:11 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:00:11 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:00:13 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:00:14 - __main__ - INFO - \u2705 User Acknowledged Alert: kitchen. Re-arming detection.
+2025-11-13 11:00:14 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:00:14 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:00:18 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:00:19 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:00:19 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:00:22 - __main__ - INFO - \u2705 User Acknowledged Alert: kitchen. Re-arming detection.
+2025-11-13 11:00:22 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:00:22 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:00:23 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:00:23 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:00:23 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:00:23 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:00:27 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:00:27 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:00:28 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:00:32 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:00:32 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:00:33 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:00:34 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:00:34 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:00:38 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:00:43 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:00:45 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:00:45 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:00:48 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:00:51 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:00:51 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:00:53 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:00:57 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:00:57 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:00:58 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:01:02 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:01:02 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:01:03 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:01:08 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:01:09 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:01:09 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:01:13 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:01:14 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:01:15 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:01:18 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:01:23 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:01:26 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:01:26 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:01:28 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:01:32 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:01:32 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:01:33 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:01:38 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:01:38 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:01:38 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:01:43 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:01:44 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:01:44 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:01:49 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:01:50 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:01:50 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:01:54 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:01:59 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:02:00 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:02:01 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:02:04 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:02:09 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:02:12 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:02:12 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:02:14 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:02:18 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:02:18 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:02:19 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:02:24 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:02:24 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:02:24 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:02:29 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:02:30 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:02:30 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:02:34 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:02:36 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:02:36 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:02:39 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:02:42 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:02:42 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:02:44 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:02:48 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:02:48 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:02:49 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:02:54 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:02:54 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:02:54 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:02:59 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:02:59 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:02:59 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:03:04 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:03:06 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:03:06 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:03:09 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:03:12 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:03:12 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:03:14 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:03:18 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:03:18 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:03:19 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:03:24 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:03:24 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:03:24 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:03:30 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:03:34 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:03:34 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:03:35 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:03:40 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:03:40 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:03:41 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:03:45 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:03:46 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:03:46 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:03:50 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:03:52 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:03:52 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:03:55 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:03:58 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:03:59 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:04:00 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:04:04 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:04:04 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:04:05 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:04:10 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:04:11 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:04:11 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:04:15 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:04:16 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:04:16 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:04:20 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:04:22 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:04:22 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:04:25 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:04:29 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:04:29 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:04:30 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:04:36 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:04:37 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:04:37 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:04:41 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:04:42 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:04:42 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:04:46 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:04:49 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:04:49 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:04:51 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:04:54 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:04:54 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:04:56 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:05:01 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:05:01 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:05:01 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:05:06 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:05:06 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:05:06 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:05:11 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:05:12 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:05:12 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:05:16 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:05:19 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:05:19 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:05:22 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:05:25 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:05:25 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:05:27 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:05:27 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:05:27 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:05:27 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:05:32 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:05:32 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:05:32 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:05:32 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:05:37 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:05:37 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:05:37 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:05:37 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:05:39 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:05:39 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:05:39 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:05:41 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:05:41 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:05:42 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:05:42 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:05:47 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:05:47 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:05:51 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:05:52 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:05:52 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:05:52 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:05:57 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:05:57 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:05:57 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:05:57 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:06:02 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:02 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:04 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:06:04 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:06:07 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:07 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:08 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:06:08 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:06:12 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:12 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:14 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:06:14 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:06:17 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:17 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:06:17 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:06:17 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:22 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:22 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:06:22 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:06:22 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:27 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:27 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:29 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:06:29 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:06:32 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:33 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:35 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:06:35 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:06:37 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:38 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:41 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:06:41 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:06:42 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:43 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:47 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:06:47 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:06:47 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:48 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:52 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:53 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:06:53 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:06:53 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:57 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:58 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:06:59 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:06:59 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:07:02 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:03 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:05 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:07:05 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:07:07 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:08 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:11 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:07:11 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:07:12 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:13 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:17 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:07:17 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:07:17 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:18 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:22 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:23 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:07:23 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:07:23 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:27 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:28 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:29 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:07:29 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:07:32 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:33 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:34 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:07:34 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:07:37 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:38 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:41 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:07:41 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:07:42 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:43 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:46 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:07:46 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:07:48 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:48 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:52 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:07:53 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:07:53 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:53 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:58 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:58 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:07:58 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:07:58 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:08:03 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:08:03 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:08:04 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:08:04 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:08:08 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:08:08 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:08:11 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:08:11 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:08:13 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:08:14 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:08:17 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:08:17 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:08:18 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:08:19 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:08:22 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:08:22 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:08:23 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:08:24 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:08:28 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:08:28 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:08:28 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:08:29 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:08:33 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:08:34 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:08:35 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:08:35 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:08:38 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:08:39 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:08:41 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:08:41 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:08:43 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:08:44 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:08:46 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:08:46 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:08:47 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:08:48 - __main__ - INFO - Releasing video captures...
+2025-11-13 11:08:48 - __main__ - INFO - Cleanup complete.
+2025-11-13 11:08:55 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-13 11:08:55 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-13 11:08:55 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-13 11:08:56 - __main__ - INFO - Processing video source: Camera 0 (Fire Cam)
+2025-11-13 11:08:56 - __main__ - ERROR - Failed to open video source: 1 (CCTV Cam)
+2025-11-13 11:08:56 - __main__ - WARNING - CCTV feed will not be available. Continuing with fire cam.
+2025-11-13 11:08:56 - __main__ - INFO - Starting Flask-SocketIO server on http://localhost:5000
+2025-11-13 11:08:57 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:08:58 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:08:58 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:09:00 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:09:00 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:09:00 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:09:05 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:09:05 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:09:05 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:09:10 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:09:10 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:09:10 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:09:11 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:11 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:09:11 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:09:11 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:11 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:12 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:12 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:12 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:12 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:12 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:12 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:14 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:09:14 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:09:15 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:15 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:09:15 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:09:15 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:15 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:15 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:09:16 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:16 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:17 - __main__ - INFO - \u2705 User Acknowledged Alert: kitchen. Re-arming detection.
+2025-11-13 11:09:17 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:09:17 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:09:18 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:18 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:09:18 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:09:18 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:18 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:19 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:21 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:09:22 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:22 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:22 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:22 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:22 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:22 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:23 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:23 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:23 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:23 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:23 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:23 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:23 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:24 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:24 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:24 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:24 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire Detected! Emitting alert to web UI
+2025-11-13 11:09:25 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:09:25 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:09:26 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:09:30 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:09:30 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:09:31 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:09:36 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:09:36 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:09:36 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:09:41 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:09:46 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:09:51 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:09:52 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:09:52 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:09:56 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:09:59 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:09:59 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:10:01 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:10:05 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:10:05 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:10:06 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:10:11 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:10:11 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:10:11 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:10:16 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:10:17 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:10:17 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:10:21 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:10:23 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:10:23 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:10:26 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:10:29 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:10:29 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:10:31 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:10:35 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:10:35 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:10:36 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:10:40 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:10:40 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:10:41 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:10:46 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:10:47 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:10:47 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:10:51 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:10:57 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:10:57 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:10:57 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:11:02 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:11:04 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:11:04 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:11:07 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:11:09 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:11:09 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:11:12 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:11:16 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:11:16 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:11:17 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:11:22 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:11:22 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:11:22 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:11:27 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:11:28 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:11:28 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:11:32 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:11:33 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:11:34 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:11:37 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:11:39 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:11:40 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:11:42 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:11:46 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:11:46 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:11:47 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:11:52 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:11:52 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:11:52 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:11:57 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:11:58 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:11:58 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:12:02 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:12:04 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:12:04 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:12:07 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:12:10 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:12:10 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:12:12 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:12:15 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:12:15 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:12:18 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:12:22 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:12:22 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:12:23 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:12:28 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:12:28 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:12:28 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:12:33 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:12:34 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:12:34 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:12:38 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:12:40 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:12:40 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:12:43 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:12:46 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:12:46 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:12:48 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:12:52 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:12:52 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:12:53 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:12:57 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:12:57 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:12:58 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:13:03 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:13:04 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:13:04 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:13:08 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:13:10 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:13:11 - __main__ - INFO - Releasing video captures...
+2025-11-13 11:13:11 - __main__ - INFO - Cleanup complete.
+2025-11-13 11:13:43 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-13 11:13:43 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-13 11:13:43 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-13 11:13:45 - __main__ - INFO - Processing video source: Camera 0 (Fire Cam)
+2025-11-13 11:13:45 - __main__ - ERROR - Failed to open video source: 1 (CCTV Cam)
+2025-11-13 11:13:45 - __main__ - WARNING - CCTV feed will not be available. Continuing with fire cam.
+2025-11-13 11:13:45 - __main__ - INFO - Starting Flask-SocketIO server on http://localhost:5000
+2025-11-13 11:13:45 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:13:48 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:13:48 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:13:53 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:13:53 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:13:57 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:13:57 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:13:59 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire DETECTED! Emitting alert to web UI
+2025-11-13 11:13:59 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:13:59 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:14:04 - __main__ - INFO - \u2705 Hazard Cleared. Emitting clear event to web UI
+2025-11-13 11:14:04 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:14:04 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:14:09 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:14:09 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:14:11 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:14:11 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:14:12 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire DETECTED! Emitting alert to web UI
+2025-11-13 11:14:13 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:14:13 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:14:14 - __main__ - INFO - \u2705 Hazard Cleared. Emitting clear event to web UI
+2025-11-13 11:14:14 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:14:14 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:14:18 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:14:19 - __main__ - INFO - Releasing video captures...
+2025-11-13 11:14:20 - __main__ - INFO - Cleanup complete.
+2025-11-13 11:16:15 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-13 11:16:15 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-13 11:16:15 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-13 11:16:17 - __main__ - INFO - Processing video source: Camera 0 (Fire Cam)
+2025-11-13 11:16:17 - __main__ - ERROR - Failed to open video source: 1 (CCTV Cam)
+2025-11-13 11:16:17 - __main__ - WARNING - CCTV feed will not be available. Continuing with fire cam.
+2025-11-13 11:16:17 - __main__ - INFO - Starting Flask-SocketIO server on http://localhost:5000
+2025-11-13 11:16:17 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:16:17 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:16:17 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:16:19 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:16:23 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:16:23 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:16:24 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:16:25 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:16:25 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:16:29 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:16:30 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:16:30 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:16:32 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire DETECTED! Emitting alert to web UI
+2025-11-13 11:16:32 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:16:32 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:16:33 - __main__ - INFO - \u2705 Hazard Cleared. Emitting clear event to web UI
+2025-11-13 11:16:33 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:16:33 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:16:34 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:16:35 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:16:35 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:16:39 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:16:40 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:16:40 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:16:44 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:16:45 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:16:45 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:16:49 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:16:50 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:16:50 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:16:54 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:16:55 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:16:55 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:16:59 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:17:00 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:17:00 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 11:17:04 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 11:17:04 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 11:17:05 - __main__ - INFO - Releasing video captures...
+2025-11-13 11:17:05 - __main__ - INFO - Cleanup complete.
+2025-11-13 12:21:53 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-13 12:21:53 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-13 12:21:53 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-13 12:21:55 - __main__ - INFO - Processing video source: Camera 0 (Fire Cam)
+2025-11-13 12:21:55 - __main__ - ERROR - Failed to open video source: 1 (CCTV Cam)
+2025-11-13 12:21:55 - __main__ - WARNING - CCTV feed will not be available. Continuing with fire cam.
+2025-11-13 12:21:55 - __main__ - WARNING - Source image for face detection not found at: E:\Users\Steven\Documents\Github\Project Kiw Kiw\backend\src_backend\media\source.png
+2025-11-13 12:21:55 - __main__ - WARNING - Face matching will not work until the file is added.
+2025-11-13 12:21:55 - __main__ - INFO - Starting Flask-SocketIO server on http://localhost:5000
+2025-11-13 12:21:55 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:22:00 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:22:00 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:22:06 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:22:06 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:22:12 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:22:13 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:22:18 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:22:18 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:22:34 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:22:34 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:22:40 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:22:40 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:22:46 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:22:46 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:22:52 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:22:52 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:22:58 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:22:58 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:23:04 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:23:04 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:23:10 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:23:10 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:23:17 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:23:17 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:23:22 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:23:22 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:23:28 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:23:28 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:23:34 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:23:34 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:23:37 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:23:38 - __main__ - INFO - Releasing video captures...
+2025-11-13 12:23:38 - __main__ - INFO - Cleanup complete.
+2025-11-13 12:23:52 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-13 12:23:52 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-13 12:23:52 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-13 12:23:53 - __main__ - INFO - Processing video source: Camera 0 (Fire Cam)
+2025-11-13 12:23:53 - __main__ - ERROR - Failed to open video source: 1 (CCTV Cam)
+2025-11-13 12:23:53 - __main__ - WARNING - CCTV feed will not be available. Continuing with fire cam.
+2025-11-13 12:23:53 - __main__ - INFO - Loaded source image for face detection: E:\Users\Steven\Documents\Github\Project Kiw Kiw\backend\src\media\source.jpg
+2025-11-13 12:23:53 - __main__ - INFO - Starting Flask-SocketIO server on http://localhost:5000
+2025-11-13 12:23:57 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:23:57 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:23:57 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:24:03 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:24:03 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:24:09 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:24:09 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:24:15 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:24:15 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:24:21 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:24:21 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:24:27 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:24:27 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:24:33 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:24:33 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:24:44 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:24:44 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:24:49 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:24:49 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:24:51 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 12:24:54 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:24:54 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:24:56 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 12:25:00 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:25:00 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:25:01 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 12:25:06 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 12:25:11 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:25:11 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:25:11 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 12:25:16 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 12:25:16 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:25:16 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:25:21 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 12:25:23 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:25:23 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:25:26 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 12:25:29 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:25:29 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:25:30 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:25:31 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 12:25:36 - __main__ - WARNING - CCTV cam not available, sleeping.
+2025-11-13 12:25:36 - __main__ - INFO - Releasing video captures...
+2025-11-13 12:25:36 - __main__ - INFO - Cleanup complete.
+2025-11-13 12:28:35 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-13 12:28:35 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-13 12:28:35 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-13 12:28:36 - __main__ - INFO - Processing video source: Camera 0 (Fire Cam)
+2025-11-13 12:28:36 - __main__ - INFO - Processing video source: Camera 1 (CCTV Cam)
+2025-11-13 12:28:36 - __main__ - INFO - Loaded source image for face detection: E:\Users\Steven\Documents\Github\Project Kiw Kiw\backend\src\media\source.jpg
+2025-11-13 12:28:36 - __main__ - INFO - Starting Flask-SocketIO server on http://localhost:5000
+2025-11-13 12:28:36 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:28:40 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:28:40 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:28:45 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:28:45 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:28:50 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:28:51 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:29:01 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:29:01 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:29:02 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:29:02 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:29:10 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:29:10 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:29:14 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:29:14 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:29:19 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:29:19 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:29:24 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:29:24 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:29:29 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:29:29 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:29:45 - __main__ - WARNING - Failed to read frame from CCTV camera.
+2025-11-13 12:29:45 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:29:45 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:29:56 - __main__ - WARNING - Failed to read frame from CCTV camera.
+2025-11-13 12:29:56 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:29:56 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:29:56 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:29:56 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:30:06 - __main__ - WARNING - Failed to read frame from CCTV camera.
+2025-11-13 12:30:06 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:30:07 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:30:17 - __main__ - WARNING - Failed to read frame from CCTV camera.
+2025-11-13 12:30:17 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:30:21 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:30:31 - __main__ - WARNING - Failed to read frame from CCTV camera.
+2025-11-13 12:30:31 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:30:34 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:30:36 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:30:46 - __main__ - WARNING - Failed to read frame from CCTV camera.
+2025-11-13 12:30:57 - __main__ - WARNING - Failed to read frame from CCTV camera.
+2025-11-13 12:30:57 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:31:07 - __main__ - WARNING - Failed to read frame from CCTV camera.
+2025-11-13 12:31:07 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:31:17 - __main__ - WARNING - Failed to read frame from CCTV camera.
+2025-11-13 12:31:17 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:31:17 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:31:27 - __main__ - WARNING - Failed to read frame from CCTV camera.
+2025-11-13 12:31:27 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:31:37 - __main__ - WARNING - Failed to read frame from CCTV camera.
+2025-11-13 12:31:37 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:31:37 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:31:47 - __main__ - WARNING - Failed to read frame from CCTV camera.
+2025-11-13 12:31:47 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:31:57 - __main__ - WARNING - Failed to read frame from CCTV camera.
+2025-11-13 12:31:57 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:32:07 - __main__ - WARNING - Failed to read frame from CCTV camera.
+2025-11-13 12:32:07 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:32:07 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:32:17 - __main__ - WARNING - Failed to read frame from CCTV camera.
+2025-11-13 12:32:17 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:32:17 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:32:27 - __main__ - WARNING - Failed to read frame from CCTV camera.
+2025-11-13 12:32:27 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 12:32:27 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 12:32:48 - __main__ - INFO - Releasing video captures...
+2025-11-13 12:34:55 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-13 12:34:55 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-13 12:34:55 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-13 12:35:21 - __main__ - INFO - Processing video source: Camera 0 (Fire Cam)
+2025-11-13 12:37:59 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-13 12:37:59 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-13 12:37:59 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-13 12:39:23 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-13 12:39:23 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-13 12:39:23 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-13 13:12:29 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-13 13:12:29 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-13 13:12:29 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-13 13:12:30 - __main__ - INFO - Processing video source: Camera 0 (Fire Cam)
+2025-11-13 13:12:30 - __main__ - INFO - Processing video source: Camera 1 (CCTV Cam)
+2025-11-13 13:12:30 - __main__ - INFO - Starting Flask-SocketIO server on http://localhost:5000
+2025-11-13 13:13:27 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:13:32 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:13:32 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:13:37 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:13:37 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:13:42 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:13:42 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:13:47 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:13:47 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:13:50 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:13:50 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:13:55 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:13:55 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:13:55 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire DETECTED! Emitting alert to web UI
+2025-11-13 13:13:55 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:13:55 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:13:55 - __main__ - INFO - \u2705 Hazard Cleared. Emitting clear event to web UI
+2025-11-13 13:13:55 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:13:55 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire DETECTED! Emitting alert to web UI
+2025-11-13 13:13:56 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:13:58 - __main__ - INFO - \u2705 Hazard Cleared. Emitting clear event to web UI
+2025-11-13 13:14:00 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:14:00 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:14:05 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:14:05 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:14:10 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:14:10 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:14:13 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire DETECTED! Emitting alert to web UI
+2025-11-13 13:14:13 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:14:13 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:14:14 - __main__ - INFO - \u2705 Hazard Cleared. Emitting clear event to web UI
+2025-11-13 13:14:14 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:14:14 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:14:18 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:14:18 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:14:22 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire DETECTED! Emitting alert to web UI
+2025-11-13 13:14:22 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:14:22 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:14:22 - __main__ - INFO - \u2705 Hazard Cleared. Emitting clear event to web UI
+2025-11-13 13:14:22 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:14:22 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:14:27 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:14:27 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:14:28 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:14:28 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:14:33 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:14:33 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:14:38 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:14:38 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:14:43 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:14:43 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:14:48 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:14:48 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:14:53 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:14:53 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:14:58 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:14:58 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:15:03 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:15:03 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:15:08 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:15:08 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:15:13 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:15:13 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:15:18 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:15:18 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:15:23 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:15:23 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:15:28 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:15:28 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:15:33 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:15:33 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:15:38 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:15:38 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:15:43 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:15:43 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:15:48 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:15:48 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:15:53 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:15:53 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:15:58 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:15:58 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:16:03 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:16:03 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:16:08 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:16:08 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:16:18 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:16:18 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:16:23 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:16:23 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:16:28 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:16:28 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:16:33 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:16:33 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:16:38 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:16:38 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:16:43 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:16:43 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 13:16:48 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 13:16:48 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 15:09:33 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-13 15:09:34 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-13 15:09:34 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-13 15:09:36 - __main__ - INFO - Processing video source: Camera 0 (Fire Cam)
+2025-11-13 15:09:36 - __main__ - ERROR - Failed to open video source: 1 (CCTV Cam)
+2025-11-13 15:09:36 - __main__ - WARNING - CCTV feed will not be available. Continuing with fire cam.
+2025-11-13 15:09:36 - __main__ - INFO - Loaded face recognition images from E:\Users\Steven\Documents\Github\Project Kiw Kiw\backend\src\..\images
+2025-11-13 15:09:36 - __main__ - INFO - Starting Flask-SocketIO server on http://localhost:5000
+2025-11-13 15:12:28 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-13 15:12:28 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-13 15:12:28 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-13 15:12:29 - __main__ - ERROR - Failed to open video source: 0 (Fire Cam)
+2025-11-13 15:14:50 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-13 15:14:50 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-13 15:14:50 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-13 15:14:52 - __main__ - INFO - Processing video source: Camera 0 (Fire Cam)
+2025-11-13 15:14:52 - __main__ - INFO - Processing video source: Camera 1 (CCTV Cam)
+2025-11-13 15:14:52 - __main__ - INFO - Loaded face recognition images from E:\Users\Steven\Documents\Github\Project Kiw Kiw\backend\src\..\images
+2025-11-13 15:14:52 - __main__ - INFO - Starting Flask-SocketIO server on http://localhost:5000
+2025-11-13 15:16:04 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 15:16:41 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire DETECTED! Emitting alert to web UI
+2025-11-13 15:16:41 - __main__ - INFO - \u2705 Hazard Cleared. Emitting clear event to web UI
+2025-11-13 15:16:41 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 15:16:41 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 15:16:42 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire DETECTED! Emitting alert to web UI
+2025-11-13 15:16:43 - __main__ - INFO - \u2705 Hazard Cleared. Emitting clear event to web UI
+2025-11-13 15:16:43 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 15:16:43 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 15:16:43 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire DETECTED! Emitting alert to web UI
+2025-11-13 15:16:43 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 15:16:44 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 15:16:46 - __main__ - INFO - \u2705 Hazard Cleared. Emitting clear event to web UI
+2025-11-13 15:16:46 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 15:16:46 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 15:16:47 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire DETECTED! Emitting alert to web UI
+2025-11-13 15:16:47 - __main__ - INFO - \u2705 Hazard Cleared. Emitting clear event to web UI
+2025-11-13 15:16:47 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 15:16:47 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 15:16:48 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire DETECTED! Emitting alert to web UI
+2025-11-13 15:16:48 - __main__ - INFO - \u2705 Hazard Cleared. Emitting clear event to web UI
+2025-11-13 15:16:48 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire DETECTED! Emitting alert to web UI
+2025-11-13 15:16:48 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 15:16:48 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 15:16:48 - __main__ - INFO - \u2705 Hazard Cleared. Emitting clear event to web UI
+2025-11-13 15:16:49 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire DETECTED! Emitting alert to web UI
+2025-11-13 15:16:49 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 15:16:49 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 15:16:51 - __main__ - INFO - \u2705 Hazard Cleared. Emitting clear event to web UI
+2025-11-13 15:16:51 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire DETECTED! Emitting alert to web UI
+2025-11-13 15:16:51 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 15:16:51 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 15:16:54 - __main__ - INFO - \u2705 Hazard Cleared. Emitting clear event to web UI
+2025-11-13 15:16:54 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire DETECTED! Emitting alert to web UI
+2025-11-13 15:16:54 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 15:16:54 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 15:16:54 - __main__ - INFO - \u2705 Hazard Cleared. Emitting clear event to web UI
+2025-11-13 15:16:54 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-13 15:16:55 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-13 15:17:06 - __main__ - INFO - Face detected: Unknown
+2025-11-13 15:17:09 - __main__ - INFO - Face detected: Steven_Bong
+2025-11-13 15:17:14 - __main__ - INFO - Face detected: Steven_Bong
+2025-11-13 15:17:20 - __main__ - INFO - Face detected: Steven_Bong
+2025-11-13 15:17:21 - __main__ - INFO - Face detected: Unknown
+2025-11-13 15:17:35 - __main__ - INFO - Face detected: Unknown
+2025-11-13 15:17:35 - __main__ - INFO - Face detected: Steven_Bong
+2025-11-13 15:17:41 - __main__ - INFO - Face detected: Steven_Bong
+2025-11-13 15:19:08 - __main__ - INFO - Face detected: Unknown
+2025-11-13 15:19:10 - __main__ - INFO - Face detected: Steven_Bong
+2025-11-13 15:19:15 - __main__ - INFO - Face detected: Steven_Bong
+2025-11-13 15:19:27 - __main__ - INFO - Face detected: Unknown
+2025-11-13 15:19:32 - __main__ - INFO - Face detected: Unknown
+2025-11-13 15:19:37 - __main__ - INFO - Face detected: Unknown
+2025-11-13 15:19:42 - __main__ - INFO - Face detected: Unknown
+2025-11-13 15:19:43 - __main__ - INFO - Face detected: Steven_Bong
