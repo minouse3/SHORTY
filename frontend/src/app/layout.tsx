@@ -1,9 +1,10 @@
-
-import type {Metadata} from 'next';
+import type { Metadata } from 'next';
 import './globals.css';
-import { Toaster } from "@/components/ui/toaster"
+import { Toaster } from "@/components/ui/toaster";
 import { SystemModeProvider } from '@/context/SystemModeContext';
 import { SystemStateProvider } from '@/context/SystemStateContext';
+// 1. IMPORT THE NEW SENSOR PROVIDER
+import { SensorProvider } from '@/context/SensorContext';
 
 export const metadata: Metadata = {
   title: 'ShortyGuard',
@@ -23,11 +24,14 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
       </head>
       <body className="font-body antialiased">
-        <SystemStateProvider>
-          <SystemModeProvider>
+        {/* 2. WRAP THE APP IN SENSORPROVIDER */}
+        <SensorProvider>
+          <SystemStateProvider>
+            <SystemModeProvider>
               {children}
-          </SystemModeProvider>
-        </SystemStateProvider>
+            </SystemModeProvider>
+          </SystemStateProvider>
+        </SensorProvider>
         <Toaster />
       </body>
     </html>

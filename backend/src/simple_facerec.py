@@ -18,13 +18,19 @@ class SimpleFacerec:
         :param images_path: Path ke folder gambar
         :return:
         """
+        # --- FIX: Clear existing lists before reloading ---
+        # This ensures we don't have duplicates when we re-run this function
+        self.known_face_encodings = []
+        self.known_face_names = []
+        # --- END FIX ---
+        
         # Muat Gambar
-        images_path = glob.glob(os.path.join(images_path, "*.*"))
+        images_path_list = glob.glob(os.path.join(images_path, "*.*"))
 
-        print("{} gambar encoding ditemukan.".format(len(images_path)))
+        print("{} gambar encoding ditemukan.".format(len(images_path_list)))
 
         # Simpan encoding gambar dan nama
-        for img_path in images_path:
+        for img_path in images_path_list:
             img = cv2.imread(img_path)
             rgb_img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
@@ -61,7 +67,7 @@ class SimpleFacerec:
         for face_encoding in face_encodings:
             # Cek apakah wajah cocok dengan wajah yang sudah diketahui
             # TAMBAHKAN tolerance=0.5 DI SINI
-            matches = face_recognition.compare_faces(self.known_face_encodings, face_encoding, tolerance=0.5)
+            matches = face_recognition.compare_faces(self.known_face_encodings, face_encoding, tolerance=0.75)
             name = "Unknown" # Nama default jika tidak ada kecocokan
 
             # Gunakan wajah yang diketahui dengan jarak (distance) terkecil

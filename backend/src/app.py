@@ -27,6 +27,8 @@ socketio = SocketIO(app, cors_allowed_origins="*")
 # --- FIX 2: Path correction ---
 # Ini mengasumsikan 'images' ada di root, satu level di atas 'src'
 root_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..') 
+# --- NEW: Define images_path globally ---
+images_path = os.path.join(root_dir, "images") 
 
 # --- Logging and Config ---
 setup_logging()
@@ -56,7 +58,6 @@ try:
     try:
         sfr = SimpleFacerec()
         # Muat gambar dari folder 'images' di root project
-        images_path = os.path.join(root_dir, "images") 
         sfr.load_encoding_images(images_path)
         logger.info(f"Loaded face recognition images from {images_path}")
     except Exception as e:
@@ -150,7 +151,6 @@ def generate_fire_frames():
             
         eventlet.sleep(0.03) # ~30 FPS
 
-# --- FUNGSI YANG DIGANTI ---
 def generate_cctv_frames():
     """
     Video processing loop untuk CCTV camera DENGAN DETEKSI WAJAH.
@@ -235,7 +235,6 @@ def generate_cctv_frames():
             logger.error(f"Error encoding CCTV frame: {e}")
             
         eventlet.sleep(0.03) # ~30 FPS
-# --- AKHIR FUNGSI YANG DIGANTI ---
 
 
 # --- VIDEO FEED ROUTES ---
@@ -275,6 +274,57 @@ def handle_user_reset(data):
     global last_alert_time # Catatan: last_alert_time tidak terdefinisi, ini dari kode lama Anda
     logger.info(f"✅ User Acknowledged Alert: {data['room']}. Re-arming detection.")
     last_alert_time = 0 # Reset cooldown
+
+# --- NEW SOCKET.IO HANDLER FOR ADDING PERSON ---
+@socketio.on('add_new_person')
+def handle_add_new_person(data):
+    """
+    Handle request from front-end to add a new person.
+    'data' is expected to be {'name': 'Person Name', 'image': 'data:image/jpeg;base64,...'}
+    """
+    global sfr, images_path  # Access the global face-rec instance and images path
+    
+    try:
+        name = data['name']
+        image_data_uri = data['image']
+        
+        logger.info(f"Received request to add new person: {name}")
+
+        # --- 1. Parse Data URI ---
+        # Format is "data:image/jpeg;base64,..."
+        header, base64_data = image_data_uri.split(',', 1)
+        image_bytes = base64.b64decode(base64_data)
+        
+        # --- 2. Convert bytes to OpenCV image ---
+        nparr = np.frombuffer(image_bytes, np.uint8)
+        image_cv = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
+        
+        if image_cv is None:
+            raise ValueError("Failed to decode image from base64 data")
+
+        # --- 3. Create filename and save path ---
+        # e.g., "Jane Doe" -> "Jane_Doe.jpg"
+        filename = name.replace(' ', '_') + ".jpg"
+        save_path = os.path.join(images_path, filename)
+        
+        # --- 4. Save the image ---
+        cv2.imwrite(save_path, image_cv)
+        logger.info(f"Successfully saved new person's image to: {save_path}")
+        
+        # --- 5. Reload face recognition model ---
+        if sfr:
+            logger.info("Reloading face recognition encodings...")
+            sfr.load_encoding_images(images_path)
+            logger.info("Face recognition model reloaded successfully.")
+        else:
+            logger.warning("SimpleFacerec (sfr) is not initialized. Cannot reload models.")
+            
+    except Exception as e:
+        logger.error(f"Error in 'add_new_person' handler: {e}")
+        # Optionally, you can emit an error back to the client
+        emit('add_person_error', {'error': str(e)})
+# --- END NEW HANDLER ---
+
 
 # --- Main Runner ---
 if __name__ == "__main__":

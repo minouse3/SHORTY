@@ -1,4 +1,3 @@
-
 'use client';
 
 import React, { useContext } from 'react';
@@ -7,20 +6,13 @@ import { Switch } from '@/components/ui/switch';
 import { SystemModeContext } from '@/context/SystemModeContext';
 
 export default function Header({ children }: { children?: React.ReactNode }) {
-  const { mode, toggleMode, addNotification } = useContext(SystemModeContext);
+  // 1. Remove `addNotification`
+  const { mode, toggleMode } = useContext(SystemModeContext);
   const isStandBy = mode === 'Stand by';
 
-  const handleModeToggle = () => {
-    const newMode = mode === 'Passive' ? 'Stand by' : 'Passive';
-    addNotification({
-        type: 'system',
-        title: `System Mode: ${newMode}`,
-        description: newMode === 'Stand by' 
-            ? "Automatic alarm is now enabled." 
-            : "Automatic alarm is now disabled.",
-    });
-    toggleMode();
-  };
+  // 2. Remove `handleModeToggle` function entirely
+  //    The notification logic is now inside `setSystemMode`,
+  //    which `toggleMode` calls.
 
   return (
     <header className="flex items-center justify-between gap-4 border-b bg-card p-4 sm:p-6">
@@ -35,7 +27,8 @@ export default function Header({ children }: { children?: React.ReactNode }) {
             <Switch 
             id="mode-switch"
             checked={isStandBy}
-            onCheckedChange={handleModeToggle}
+            // 3. Call `toggleMode` directly
+            onCheckedChange={toggleMode}
             aria-label="Toggle between Passive and Stand by mode"
             />
         </div>

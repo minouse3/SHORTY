@@ -5987,3 +5987,174 @@
 2025-11-13 15:19:37 - __main__ - INFO - Face detected: Unknown
 2025-11-13 15:19:42 - __main__ - INFO - Face detected: Unknown
 2025-11-13 15:19:43 - __main__ - INFO - Face detected: Steven_Bong
+2025-11-14 01:46:43 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-14 01:46:44 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-14 01:46:44 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-14 01:46:47 - __main__ - INFO - Processing video source: Camera 0 (Fire Cam)
+2025-11-14 01:46:47 - __main__ - INFO - Processing video source: Camera 1 (CCTV Cam)
+2025-11-14 01:46:48 - __main__ - INFO - Loaded face recognition images from E:\Users\Steven\Documents\Github\SHORTY\backend\src\..\images
+2025-11-14 01:46:48 - __main__ - INFO - Starting Flask-SocketIO server on http://localhost:5000
+2025-11-14 01:46:53 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 01:46:53 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 01:46:54 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 01:47:05 - __main__ - INFO - Face detected: Unknown
+2025-11-14 01:47:11 - __main__ - INFO - Face detected: Unknown
+2025-11-14 01:47:15 - __main__ - INFO - Face detected: Steven_Bong
+2025-11-14 01:47:20 - __main__ - INFO - Face detected: Steven_Bong
+2025-11-14 01:47:42 - __main__ - INFO - Face detected: Unknown
+2025-11-14 01:48:01 - __main__ - INFO - Received request to add new person: Dimas Kurniawan
+2025-11-14 01:48:01 - __main__ - INFO - Successfully saved new person's image to: E:\Users\Steven\Documents\Github\SHORTY\backend\src\..\images\Dimas_Kurniawan.jpg
+2025-11-14 01:48:01 - __main__ - INFO - Reloading face recognition encodings...
+2025-11-14 01:48:02 - __main__ - INFO - Face recognition model reloaded successfully.
+2025-11-14 01:48:32 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 01:48:32 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 01:48:42 - __main__ - INFO - Face detected: Dimas_Kurniawan
+2025-11-14 01:49:33 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 01:49:33 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 01:49:43 - __main__ - INFO - Face detected: Dimas_Kurniawan
+2025-11-14 01:49:57 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 01:49:58 - __main__ - INFO - Releasing video captures...
+2025-11-14 01:49:58 - __main__ - INFO - Cleanup complete.
+2025-11-14 01:50:05 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-14 01:50:05 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-14 01:50:05 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-14 01:50:06 - __main__ - INFO - Processing video source: Camera 0 (Fire Cam)
+2025-11-14 01:50:06 - __main__ - INFO - Processing video source: Camera 1 (CCTV Cam)
+2025-11-14 01:50:07 - __main__ - INFO - Loaded face recognition images from E:\Users\Steven\Documents\Github\SHORTY\backend\src\..\images
+2025-11-14 01:50:07 - __main__ - INFO - Starting Flask-SocketIO server on http://localhost:5000
+2025-11-14 01:50:12 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 01:50:13 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 01:50:13 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 01:50:39 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 01:50:40 - __main__ - INFO - Releasing video captures...
+2025-11-14 01:50:40 - __main__ - INFO - Cleanup complete.
+2025-11-14 01:50:49 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-14 01:50:49 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-14 01:50:49 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-14 01:50:50 - __main__ - INFO - Processing video source: Camera 0 (Fire Cam)
+2025-11-14 01:50:50 - __main__ - INFO - Processing video source: Camera 1 (CCTV Cam)
+2025-11-14 01:50:50 - __main__ - INFO - Loaded face recognition images from E:\Users\Steven\Documents\Github\SHORTY\backend\src\..\images
+2025-11-14 01:50:50 - __main__ - INFO - Starting Flask-SocketIO server on http://localhost:5000
+2025-11-14 01:50:50 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 01:51:14 - __main__ - INFO - Face detected: Unknown
+2025-11-14 01:51:22 - __main__ - INFO - Face detected: Unknown
+2025-11-14 01:51:44 - __main__ - INFO - Received request to add new person: Dimas Kurniawan
+2025-11-14 01:51:44 - __main__ - INFO - Successfully saved new person's image to: E:\Users\Steven\Documents\Github\SHORTY\backend\src\..\images\Dimas_Kurniawan.jpg
+2025-11-14 01:51:44 - __main__ - INFO - Reloading face recognition encodings...
+2025-11-14 01:51:45 - __main__ - INFO - Face recognition model reloaded successfully.
+2025-11-14 01:51:59 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 01:51:59 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 01:52:04 - __main__ - INFO - Face detected: Dimas_Kurniawan
+2025-11-14 01:52:57 - __main__ - WARNING - \U0001f426\u200d\U0001f525 Fire DETECTED! Emitting alert to web UI
+2025-11-14 01:53:00 - __main__ - INFO - \u2705 Hazard Cleared. Emitting clear event to web UI
+2025-11-14 01:54:10 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 01:54:10 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 01:54:49 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 01:54:53 - __main__ - INFO - Releasing video captures...
+2025-11-14 01:54:53 - __main__ - INFO - Cleanup complete.
+2025-11-14 02:03:10 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-14 02:03:10 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-14 02:03:10 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-14 02:03:12 - __main__ - INFO - Processing video source: Camera 0 (Fire Cam)
+2025-11-14 02:03:12 - __main__ - INFO - Processing video source: Camera 1 (CCTV Cam)
+2025-11-14 02:03:12 - __main__ - INFO - Loaded face recognition images from E:\Users\Steven\Documents\Github\SHORTY\backend\src\..\images
+2025-11-14 02:03:12 - __main__ - INFO - Starting Flask-SocketIO server on http://localhost:5000
+2025-11-14 02:03:13 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 02:03:30 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 02:03:30 - __main__ - INFO - Releasing video captures...
+2025-11-14 02:03:30 - __main__ - INFO - Cleanup complete.
+2025-11-14 02:03:39 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-14 02:03:39 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-14 02:03:39 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-14 02:03:40 - __main__ - INFO - Processing video source: Camera 0 (Fire Cam)
+2025-11-14 02:03:40 - __main__ - INFO - Processing video source: Camera 1 (CCTV Cam)
+2025-11-14 02:03:41 - __main__ - INFO - Loaded face recognition images from E:\Users\Steven\Documents\Github\SHORTY\backend\src\..\images
+2025-11-14 02:03:41 - __main__ - INFO - Starting Flask-SocketIO server on http://localhost:5000
+2025-11-14 02:03:41 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 02:03:43 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 02:03:43 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 02:04:01 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 02:04:01 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 02:04:09 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 02:04:09 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 02:04:16 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 02:04:17 - __main__ - INFO - Releasing video captures...
+2025-11-14 02:04:17 - __main__ - INFO - Cleanup complete.
+2025-11-14 02:04:24 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-14 02:04:24 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-14 02:04:24 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-14 02:04:25 - __main__ - INFO - Processing video source: Camera 0 (Fire Cam)
+2025-11-14 02:04:25 - __main__ - INFO - Processing video source: Camera 1 (CCTV Cam)
+2025-11-14 02:04:26 - __main__ - INFO - Loaded face recognition images from E:\Users\Steven\Documents\Github\SHORTY\backend\src\..\images
+2025-11-14 02:04:26 - __main__ - INFO - Starting Flask-SocketIO server on http://localhost:5000
+2025-11-14 02:04:27 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 02:04:29 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 02:04:29 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 02:04:38 - __main__ - INFO - Face detected: Unknown
+2025-11-14 02:04:38 - __main__ - ERROR - Error during face detection: module 'base64' has no attribute 'b6encode'
+2025-11-14 02:04:40 - __main__ - INFO - Face detected: Steven_Bong
+2025-11-14 02:04:40 - __main__ - ERROR - Error during face detection: module 'base64' has no attribute 'b6encode'
+2025-11-14 02:04:45 - __main__ - INFO - Face detected: Steven_Bong
+2025-11-14 02:04:45 - __main__ - ERROR - Error during face detection: module 'base64' has no attribute 'b6encode'
+2025-11-14 02:04:46 - __main__ - INFO - Face detected: Unknown
+2025-11-14 02:04:46 - __main__ - ERROR - Error during face detection: module 'base64' has no attribute 'b6encode'
+2025-11-14 02:04:51 - __main__ - INFO - Face detected: Unknown
+2025-11-14 02:04:51 - __main__ - ERROR - Error during face detection: module 'base64' has no attribute 'b6encode'
+2025-11-14 02:04:56 - __main__ - INFO - Face detected: Unknown
+2025-11-14 02:04:56 - __main__ - ERROR - Error during face detection: module 'base64' has no attribute 'b6encode'
+2025-11-14 02:04:59 - __main__ - INFO - Face detected: Steven_Bong
+2025-11-14 02:04:59 - __main__ - ERROR - Error during face detection: module 'base64' has no attribute 'b6encode'
+2025-11-14 02:05:03 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 02:05:03 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 02:05:14 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 02:05:14 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 02:05:24 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 02:05:24 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 02:05:44 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 02:05:45 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 02:05:49 - __main__ - INFO - Face detected: Unknown
+2025-11-14 02:05:49 - __main__ - ERROR - Error during face detection: module 'base64' has no attribute 'b6encode'
+2025-11-14 02:05:53 - __main__ - INFO - Face detected: Steven_Bong
+2025-11-14 02:05:53 - __main__ - ERROR - Error during face detection: module 'base64' has no attribute 'b6encode'
+2025-11-14 02:05:59 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 02:06:01 - __main__ - INFO - Releasing video captures...
+2025-11-14 02:06:01 - __main__ - INFO - Cleanup complete.
+2025-11-14 02:06:09 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-14 02:06:09 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-14 02:06:09 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-14 02:06:10 - __main__ - INFO - Processing video source: Camera 0 (Fire Cam)
+2025-11-14 02:06:10 - __main__ - INFO - Processing video source: Camera 1 (CCTV Cam)
+2025-11-14 02:06:11 - __main__ - INFO - Loaded face recognition images from E:\Users\Steven\Documents\Github\SHORTY\backend\src\..\images
+2025-11-14 02:06:11 - __main__ - INFO - Starting Flask-SocketIO server on http://localhost:5000
+2025-11-14 02:06:13 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 02:06:18 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 02:06:18 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 02:06:24 - __main__ - INFO - Face detected: Unknown
+2025-11-14 02:06:27 - __main__ - INFO - Face detected: Steven_Bong
+2025-11-14 02:06:33 - __main__ - INFO - Face detected: Unknown
+2025-11-14 02:06:35 - __main__ - INFO - Face detected: Steven_Bong
+2025-11-14 02:06:41 - __main__ - INFO - Face detected: Unknown
+2025-11-14 02:06:44 - __main__ - INFO - Face detected: Steven_Bong
+2025-11-14 02:07:01 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 02:08:18 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 02:08:25 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 02:08:27 - __main__ - INFO - Releasing video captures...
+2025-11-14 02:08:27 - __main__ - INFO - Cleanup complete.
+2025-11-14 02:08:33 - __main__ - INFO - \U0001f680 Starting Fire Detection System (Web Server Mode)
+2025-11-14 02:08:33 - src.fire_detector - INFO - Fire detector initialized successfully
+2025-11-14 02:08:33 - __main__ - INFO - Loaded detection model: best_nano_111.pt
+2025-11-14 02:08:34 - __main__ - INFO - Processing video source: Camera 0 (Fire Cam)
+2025-11-14 02:08:35 - __main__ - INFO - Processing video source: Camera 1 (CCTV Cam)
+2025-11-14 02:08:35 - __main__ - INFO - Loaded face recognition images from E:\Users\Steven\Documents\Github\SHORTY\backend\src\..\images
+2025-11-14 02:08:35 - __main__ - INFO - Starting Flask-SocketIO server on http://localhost:5000
+2025-11-14 02:08:36 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 02:08:39 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 02:08:39 - __main__ - INFO - \u2705 Web Client connected via SocketIO
+2025-11-14 02:08:45 - __main__ - INFO - Face detected: Unknown
+2025-11-14 02:08:50 - __main__ - INFO - Face detected: Steven_Bong
+2025-11-14 02:08:54 - __main__ - INFO - Face detected: Unknown
+2025-11-14 02:09:00 - __main__ - INFO - Face detected: Unknown
+2025-11-14 02:09:00 - __main__ - INFO - Face detected: Steven_Bong
+2025-11-14 02:09:09 - __main__ - INFO - \u274c Web Client disconnected
+2025-11-14 02:11:36 - __main__ - INFO - Releasing video captures...
+2025-11-14 02:11:36 - __main__ - INFO - Cleanup complete.
