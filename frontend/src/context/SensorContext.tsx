@@ -5,7 +5,7 @@ import React, { createContext, useContext, useState, useEffect, ReactNode } from
 import mqtt, { MqttClient } from 'mqtt';
 
 // --- Konfigurasi MQTT ---
-const MQTT_BROKER_URL = 'ws://192.168.1.6:9001'; // Pastikan IP & Port WebSocket benar
+const MQTT_BROKER_URL = 'ws://<ip>:9001'; // Pastikan IP & Port WebSocket benar
 
 const TOPICS = [
   'home/sensor/door',

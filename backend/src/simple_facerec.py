@@ -18,11 +18,11 @@ class SimpleFacerec:
         :param images_path: Path ke folder gambar
         :return:
         """
-        # --- FIX: Clear existing lists before reloading ---
-        # This ensures we don't have duplicates when we re-run this function
+        # --- FIX: Bersihkan list yang ada sebelum memuat ulang ---
+        # Ini memastikan kita tidak duplikat saat fungsi ini dijalankan lagi
         self.known_face_encodings = []
         self.known_face_names = []
-        # --- END FIX ---
+        # --- AKHIR FIX ---
         
         # Muat Gambar
         images_path_list = glob.glob(os.path.join(images_path, "*.*"))
@@ -66,8 +66,8 @@ class SimpleFacerec:
         face_names = []
         for face_encoding in face_encodings:
             # Cek apakah wajah cocok dengan wajah yang sudah diketahui
-            # TAMBAHKAN tolerance=0.5 DI SINI
-            matches = face_recognition.compare_faces(self.known_face_encodings, face_encoding, tolerance=0.75)
+            # tolerance=0.5 adalah nilai kuncinya
+            matches = face_recognition.compare_faces(self.known_face_encodings, face_encoding, tolerance=0.5)
             name = "Unknown" # Nama default jika tidak ada kecocokan
 
             # Gunakan wajah yang diketahui dengan jarak (distance) terkecil
