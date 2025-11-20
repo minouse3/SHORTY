@@ -12,3 +12,4 @@ python-telegram-bot
 filelock
 face_recognition
 setuptools
+pygame

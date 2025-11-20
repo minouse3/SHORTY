@@ -67,7 +67,7 @@ class SimpleFacerec:
         for face_encoding in face_encodings:
             # Cek apakah wajah cocok dengan wajah yang sudah diketahui
             # tolerance=0.5 adalah nilai kuncinya
-            matches = face_recognition.compare_faces(self.known_face_encodings, face_encoding, tolerance=0.5)
+            matches = face_recognition.compare_faces(self.known_face_encodings, face_encoding, tolerance=0.6)
             name = "Unknown" # Nama default jika tidak ada kecocokan
 
             # Gunakan wajah yang diketahui dengan jarak (distance) terkecil
